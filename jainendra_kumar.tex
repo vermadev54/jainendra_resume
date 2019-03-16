@@ -1,0 +1,179 @@
+%-------------------------
+% Resume in Latex
+% Author : jainendra kumar
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  {\Large \textbf {Jainendra kumar}} &  +91-7598469637
+  \\{Machine Learning Engineer} & \href{mailto:vermadev54@gmail.com}{vermadev54@gmail.com}
+  \\{GTO Applied Research } & \href{mailto:jainendra@iitg.ac.in}{jainendra@iitg.ac.in} 
+  \\{Cognizant R\&D } & \href{https://github.com/vermadev54}{https://github.com/vermadev54} \\{\location{Hyderabad, India}}&\href{https://www.linkedin.com/in/jainendra15}{https://www.linkedin.com/in/jainendra15}\\
+  
+
+  
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Technology, Guwahati }{Guwahati, India }
+      {Master of Technology, Computer Science;  CGPA: 7.02}{Jun 2015 -- Jul 2017}
+    \resumeSubheading
+      {Pondicherry University}{Pondicherry, India}
+      {P.G.Diploma in Statistical \& Research methods;  Percentage: 62.10\%}{Jun 2014 -- Jul 2015}
+    \resumeSubheading
+      {Mizoram University}{Mizoram, India}
+      {Bachelor of Technology, Information Technology; CGPA:7.54}{Jun 2009 -- Aug 2013}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Cognizant}{Hyderabad, India}
+      {Machine Learning Engineer}{Jul 2017 - Present}
+      \resumeItemListStart
+      \resumeItem{Speech to Code Generation}{Solving problem of Parsing Natural Language Descriptions into source code written in a General-Purpose Programming language. Creating Abstract Syntax tree (AST) from the Natural Language in intermediate further AST converted to well formed code. Encoder-decoder Neural network considered to create AST further a parser used to convert AST to code.}
+      \resumeItem{Chatbot - RASA}{Created Chatbot for designer to create UI controls in more interactive manner for the project \textbf{Speech to UI Controls Sketching}.}
+      \resumeItem{Speech to UI Controls Sketching}{Created dataset for extracting the intent and entity from Natural Language descriptions to predict the UI controls.  }
+      
+        \resumeItem{Event Ticket Resolution Recommendation system using Labelled LDA and Featured LDA}
+          {Developed techniques to recommend appropriate resolution for incoming events by making use of similarities between the events and historical resolutions of similar events.}
+        \resumeItem{Ultra Fast Video Surveillance classification model}
+          {Object Detection method for Recognizing the person name from streaming video in almost real time implemented using of Deep Learning.}
+         \resumeItem{Analysis of the effective Incremental learning algorithm for image classification } {While dealing  with the empirical and historical datasets the new dataset become available over time.
+         To create a model for this type of dataset becomes very difficult because after getting a new dataset every time Model need to retrain from beginning.
+         it cost both time and space of system, incremental nature of algorithm helps to use the old model knowledge and train with model with new dataset.
+         for experiment considered image datasets CIFAR-100.}
+         \resumeItem{WIKI Question Answering System }{Searching for an answer to a question in a potentially very large corpus of unstructured documents. Thus the system has to combine the challenges of document retrieval (finding the relevant documents) with that of machine comprehension of text and answer the question correctly.}
+         \resumeItem{Speaker Identification application for mobile}{Developed Mobile Api for security. Allow mobile owner to set voice characteristics based password. Considered voice characteristics Feature are MFCC,DELTA and Spectrogram.}    
+         \resumeItemListEnd
+
+    \resumeSubheading
+      {Indian Institute of Technology, Guwahati}{Guwahati, India}
+      {Master of Technology, Computer science, Research and Teaching Assistant}{Jun 2014 -  Jul 2017}
+      
+      \resumeItemListStart
+        \resumeItem{Energy Efficient Migration Aware Proportional Fair Scheduling on Multiprocessor}
+          {This project includes Design, Implementation & Analysis of Fault-Tolerant Multiprocessor Scheduling strategy for Real-time Embedded System. Technology: C++.}
+        \resumeItem{Portfolio Optimization In Stocks}
+          {This project includes optimization of the stock portfolio so that it will give a high profit at given risk using convex optimization.Technologies: Python}
+        \resumeItem{Speech Processing: Voice Controlled Robot}
+          {This project included the development of a speech recognition system using a Hidden Markov Model which can be trained using any language and can be used as a word recognizer in real time. Tools/Technologies: Visual Studio, C++.}
+      \resumeItemListEnd
+
+
+%-----------TECHNICAL SKILLS-----------------
+\section{SKILLS}
+  \resumeSubHeadingListStart
+    \cvskill{C, C++, Python, SQL, Statistics analysis, Natural Language Processing, Artificial Intelligence, Machine learning, Deep Learning, Data Visualization. }
+  \resumeSubHeadingListEnd
+\section{TOOLS}
+  \resumeSubHeadingListStart
+    \cvskill{Tensorflow, Keras, Scikit-learn, Panda, Numpy, Matplotlib, Tableau, NLTK, AWS.  }
+  \resumeSubHeadingListEnd
+\section{ACHIEVEMENTS}
+  \resumeSubHeadingListStart
+    \resumeItem{GATE}{Qualified in GATE 2015, 2016, 2017.}
+\resumeItem{UGC-NET}{Qualified for Assistant Professor by UGC-NET in July 2018.}
+  \resumeSubHeadingListEnd
+\section{POSITIONS OF RESPONSIBILITY}
+  \resumeSubHeadingListStart
+    \resumeItem{Worked as Teaching Assistant in Programming lab (C, Java) }{Carried out my duties of conducting labs, checking codes of enrolled students and clarifying their lab related doubts}
+    \resumeItem{Worked as Teaching Assistant for Developing and Designing Departmental Automation System}{Department of CSE, IIT Guwahati.}
+    \resumeItem{Volunteered for Placements (2015 - 2016).
+}{Centre for Career Development, IIT Guwahati}
+  \resumeSubHeadingListEnd
+\section{KEY COURSES TAKEN}
+  \resumeSubHeadingListStart
+\cvskill{Data Structures and Algorithms, Artificial Intellengence, Machine Learning, Statistics, Speech Processing, Logic in Computer Science, Mathematics for Computer Science, Theory of Computation, Computer Systems.
+ }
+
+  \resumeSubHeadingListEnd
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
